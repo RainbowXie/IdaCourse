@@ -1,0 +1,3 @@
+/home/ethan/Work/Work/Projects/ida-course/lesson1/build/CMakeFiles/lesson1.dir
+/home/ethan/Work/Work/Projects/ida-course/lesson1/build/CMakeFiles/edit_cache.dir
+/home/ethan/Work/Work/Projects/ida-course/lesson1/build/CMakeFiles/rebuild_cache.dir
