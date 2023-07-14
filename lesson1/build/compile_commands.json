@@ -1,8 +1,0 @@
-[
-{
-  "directory": "/home/ethan/Work/Work/Projects/ida-course/lesson1/build",
-  "command": "/home/ethan/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=aarch64-none-linux-android21 --gcc-toolchain=/home/ethan/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/ethan/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -std=gnu++14 -fPIE -o CMakeFiles/lesson1.dir/src/lesson1.cpp.o -c /home/ethan/Work/Work/Projects/ida-course/lesson1/src/lesson1.cpp",
-  "file": "/home/ethan/Work/Work/Projects/ida-course/lesson1/src/lesson1.cpp",
-  "output": "CMakeFiles/lesson1.dir/src/lesson1.cpp.o"
-}
-]

@@ -39,17 +39,17 @@ link_directories(src/lib)
 
 add_executable(lesson1 ${lesson1_source_files})
 
-target_link_libraries(lesson1)
+target_link_libraries(lesson1 -static -lc)
 
 add_custom_command(
     TARGET lesson1 POST_BUILD
     COMMAND ${ANDROID_TOOLCHAIN_PREFIX}strip${ANDROID_TOOLCHAIN_SUFFIX} "${CMAKE_BINARY_DIR}/lesson1"
     VERBATIM
 )
-message(STATUS "path: ${CMAKE_BINARY_DIR}")
+# message(STATUS "path: ${CMAKE_BINARY_DIR}")
 # message(STATUS ${ANDROID_HOST_TAG})
 # message(STATUS ${ANDROID_ABI})
 # message(STATUS ${ANDROID_NDK_REVISION})
 # message(STATUS ${ANDROID_SYSROOT_ABI})
 # message(STATUS ${ANDROID_TOOLCHAIN_SUFFIX})
-# message(STATUS ${ANDROID_TOOLCHAIN_PREFIX}strip)
+message(STATUS ${ANDROID_TOOLCHAIN_PREFIX}strip${ANDROID_TOOLCHAIN_SUFFIX} "${CMAKE_BINARY_DIR}/lesson1")
